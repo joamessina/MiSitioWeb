@@ -42,6 +42,10 @@ img{
     text-align: center;
     color: aliceblue;
 }
+#navbar li.active a{
+	color: red;	
+}
+
 #navbar li a:hover{
     background-color: coral;
     color: black;

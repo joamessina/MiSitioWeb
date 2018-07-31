@@ -52,9 +52,23 @@
  	<script>
  		
  		$(document).ready(function(){
+
+ 			configurarInicio();
+
  			$('.myicono').click(function(e){
+ 				
  				$('#navbar ul').toggleClass('lista-sm');
  			})
+ 		
+ 			function configurarInicio(){
+ 				var urlPath = window.location.pathname;
+ 				console.log(urlPath);
+ 				$('nav a').each(function(){
+ 					console.log($(this));
+
+ 				})
+ 			}
+
  		})
 
  	</script>
