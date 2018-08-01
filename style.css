@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 body{
     background-color: #eee;
     color: #333;
+    font-family: 'Montserrat', sans-serif;
 }
 a{
     text-decoration: none;
@@ -34,6 +36,27 @@ img{
 #navbar li{
     float: left;
 }
+
+form{
+	max-width: 750px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+form div{
+	padding: 15px;
+}
+
+input{
+	width: 90%;
+	display: block;
+}
+button{
+	width: 90%;
+	height: 50px;
+	padding: 15px;
+}
+
 #navbar li a{
     padding: 20px;
     display: inline-block;
